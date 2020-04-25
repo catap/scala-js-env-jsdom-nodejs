@@ -7,7 +7,8 @@ scala:
 jdk:
   - openjdk11
 env:
-  - JSDOM_VERSION=16.2.2
+  - JSDOM_VERSION=16.2.2 SCALAJS_VERSION=
+  - JSDOM_VERSION=16.2.2 SCALAJS_VERSION=0.6.32
 install:
   # We need a recent version of Node.js for jsdom
   - nvm install 12
